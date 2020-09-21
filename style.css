@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+  }
+  header {
+      height: 100px;
+      width: 1263.2px;
+      padding:0px;
+      margin:0 0 50px 0;
+      background-color: #001333; 
+  }
+ 
+   h2 {
+      color:white;
+      text-align: center;
+      font-family:'Rubik', sans-serif ;
+  }
+  header+div {
+     
+      align-items: center;
+  }
+  .navbar {
+     float: right;
+     
+  }
+  .nav_links {
+      list-style: none;
+     
+     
+  }
+  .nav_links li {
+       padding: 0 50px;
+       
+  }
+  .nav_links a {
+     font-family: 'Rubik', sans-serif; 
+     font-weight:500 ;
+     color: #edf0f1;
+     text-decoration: none; 
+  }
+ 
+  .call{
+      text-decoration: none;
+      margin-left: 20px;
+      padding: 9px 25px;
+      background-color: rgba(0, 136, 169, 1);
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+     
+  }
+  #logo {
+     width:70px;
+     height:70px;
+     margin: 10px;
+     float:left;
+     cursor: pointer;
+  }
+  
+ #vl{
+      border: 1px solid whitesmoke;
+      height:49px ;              
+      float:left;
+      margin-top: 20px;
+  }
+  
+  .name{
+      padding-top: 20px;
+      text-align: left;
+      display: inline-block;
+      margin-top: 5px;
+      margin-left: 10px;
+      color: white;
+      font-family: 'Oswald', sans-serif;
+      
+
+  }
+  body{
+      background-color:#001B48;
+      height: 100%;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+ 
+  ul,li {
+    list-style: none;
+    display: inline-block;
+    text-align: center; 
+}
+
+
+ 
+  fieldset {
+      margin:20px;
+      background-color: #E8E8E8;
+      padding:15px;
+  }
+  fieldset h2 {
+    font:  25px 'Rubik', sans-serif;
+    margin:10px 10px 15px 2px;
+    padding:5px;
+    text-align: left;
+    color:rgba(0, 136, 169, 1);
+  }
+  form {
+      width: 95%;
+      margin:auto;
+      padding: 20px;
+      border-radius: 8px;
+      border: 10px;
+      border-color: #707070;
+      
+  }
+ .fieldset1 input  {
+      display: block;
+      margin:10px;
+      width: 500px;
+      padding: 10px;
+  }
+  select {
+      margin:10px;
+      width: 500px;
+      padding: 10px 0;
+      font-size: 15px;
+      display: block;
+  }
+  
+  .fieldset2 label{
+    margin:0;
+    padding: 10px 0;
+   font-size: 16px;
+   text-align: left;
+  }
+  .fieldset2 input[type="date"],input[type="time"]{
+      margin-top: 5px;
+      padding:10px;
+      width:500px;
+      display: block;
+  }
+  .fieldset3  textarea{
+    width:500px;
+    height:200px;
+    padding: 15px 15px;
+    margin:10px;
+  }
+  .fieldset3 label {
+      font-size: 18px;
+  }
+  .fieldset3 input{
+    display:block;
+    margin: auto;
+    width: 400px;
+    height:50px;
+    border: 2px solid rgba(0, 136, 169, 1);
+    font-weight: 300;
+    font-family: inherit;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .fieldset3 input:hover {
+      background-color: rgba(0, 136, 169, 1);
+      color:white;
+  }
+  footer {
+      background-color: #001333;
+      margin-top:20px;
+      height: 320px;
+  }
+   .about li {
+    display: block;
+    text-align: left;
+  }
+
+.about {
+      margin: 5px;
+      padding: 5px;
+      color:#aaaaee;
+      font: 18px 'Rubik', sans-serif;
+  }
+  .f{
+      font-weight: bold;
+      color:#ababed;
+     font-size:18px ;
+     font-family: 'Rubik', sans-serif ;
+     text-align: center;
+
+  }
+  #a {
+      color:#ababed;
+  }
+ 
+  .w3-button, .fab {
+      text-decoration:none;
+      size:30px;
+      color:#ababed;
+      padding:15px;
+      margin:15px;
+      margin-left: 160px;   
+  }
+  footer p {
+      color:#ababed;
+      font: bold 16px 'Rubik', sans-serif;
+      text-align: center;
+  }
